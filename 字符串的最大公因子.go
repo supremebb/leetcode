@@ -55,7 +55,7 @@ func gcdOfStrings(str1 string, str2 string) string {
 		return result
 	}
 	// 然后获取俩数的最大公约数的长度
-	// 这个就是把2个
+	// 这个就是把2个数的长度传进去去算
 	gcd := getGCD(len(str1), len(str2))
 	result = str1[0:gcd]
 	return result

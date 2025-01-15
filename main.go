@@ -2,5 +2,5 @@ package main
 
 func main() {
 
-	answer_gcdOfStrings()
+	answer_kidsWithCandies()
 }
