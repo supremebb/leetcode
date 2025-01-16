@@ -1,6 +1,5 @@
 package main
 
 func main() {
-
-	answer_kidsWithCandies()
+	answer_reverseVowels()
 }
