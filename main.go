@@ -1,5 +1,5 @@
 package main
 
 func main() {
-	answer_reverseVowels()
+	answer_reverseWords()
 }
