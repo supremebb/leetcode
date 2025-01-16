@@ -1,4 +1,4 @@
-package main
+package shuzuzifuchuan
 
 import "fmt"
 

@@ -1,5 +1,7 @@
 package main
 
+import "leetcode/shuzuzifuchuan"
+
 func main() {
-	answer_increasingTriplet()
+	shuzuzifuchuan.Answer_compress()
 }
