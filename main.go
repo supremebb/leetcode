@@ -1,5 +1,5 @@
 package main
 
 func main() {
-	answer_productExceptSelf()
+	answer_increasingTriplet()
 }
