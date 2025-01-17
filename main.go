@@ -1,7 +1,7 @@
 package main
 
-import "leetcode/shuzuzifuchuan"
+import "leetcode/shuangzhizhen"
 
 func main() {
-	shuzuzifuchuan.Answer_compress()
+	shuangzhizhen.Answer_moveZeroes()
 }
