@@ -1,7 +1,7 @@
 package main
 
-import "leetcode/shuangzhizhen"
+import "leetcode/huadongchuangkou"
 
 func main() {
-	shuangzhizhen.Answer_maxOperations()
+	huadongchuangkou.Answer_findMaxAverage()
 }
