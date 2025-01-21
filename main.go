@@ -1,7 +1,9 @@
 package main
 
-import "leetcode/qianzhuihe"
+import (
+	"leetcode/hash"
+)
 
 func main() {
-	qianzhuihe.Answer_privotIndex()
+	hash.Answer_uniqueOccurrences()
 }

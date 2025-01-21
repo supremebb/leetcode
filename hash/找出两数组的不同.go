@@ -1,5 +1,7 @@
 package hash
 
+import "fmt"
+
 // https://leetcode.cn/problems/find-the-difference-of-two-arrays/description/?envType=study-plan-v2&envId=leetcode-75
 // 给你两个下标从 0 开始的整数数组 nums1 和 nums2 ，请你返回一个长度为 2 的列表 answer ，其中：
 //
@@ -30,6 +32,43 @@ package hash
 //1 <= nums1.length, nums2.length <= 1000
 //-1000 <= nums1[i], nums2[i] <= 1000
 
+func Answer_findDifference() {
+	nums11 := []int{1, 2, 3}
+	nums12 := []int{2, 4, 6}
+	r1 := findDifference(nums11, nums12)
+	fmt.Println(r1)
+
+	nums21 := []int{1, 2, 3, 3}
+	nums22 := []int{1, 1, 2, 2}
+	r2 := findDifference(nums21, nums22)
+	fmt.Println(r2)
+}
+
 func findDifference(nums1 []int, nums2 []int) [][]int {
-	return nil
+	var result [][]int
+	var r1, r2 []int
+	for _, n1 := range nums1 {
+		exist := contain(nums2, n1)
+		if exist && contain(r1, n1) {
+			r1 = append(r1, n1)
+		}
+	}
+	for _, n2 := range nums2 {
+		exist := contain(nums1, n2)
+		if exist && contain(r2, n2) {
+			r2 = append(r2, n2)
+		}
+	}
+	result = append(result, r1)
+	result = append(result, r2)
+	return result
+}
+
+func contain(nums []int, num int) bool {
+	for _, n := range nums {
+		if n == num {
+			return false
+		}
+	}
+	return true
 }
