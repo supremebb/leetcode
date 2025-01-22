@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	zhan.Answer_asteroidCollision()
+	zhan.Answer_decodeString()
 }
