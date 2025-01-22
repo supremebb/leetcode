@@ -1,9 +1,9 @@
 package main
 
 import (
-	"leetcode/hash"
+	"leetcode/zhan"
 )
 
 func main() {
-	hash.Answer_equalPairs()
+	zhan.Answer_asteroidCollision()
 }
