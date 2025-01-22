@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	hash.Answer_uniqueOccurrences()
+	hash.Answer_equalPairs()
 }
