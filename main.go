@@ -6,5 +6,5 @@ import (
 
 func main() {
 	//te11
-	lianbiao.Answer_deleteMiddle()
+	lianbiao.Answer_oddEvenList()
 }
