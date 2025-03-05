@@ -1,10 +1,10 @@
 package main
 
 import (
-	"leetcode/duilie"
+	"leetcode/lianbiao"
 )
 
 func main() {
 	//te11
-	duilie.Answer_predictPartyVictory()
+	lianbiao.Answer_deleteMiddle()
 }
