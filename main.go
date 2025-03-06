@@ -6,5 +6,5 @@ import (
 
 func main() {
 	//te11
-	lianbiao.Answer_oddEvenList()
+	lianbiao.Answer_reverseList()
 }
