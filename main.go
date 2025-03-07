@@ -6,5 +6,5 @@ import (
 
 func main() {
 	//te11
-	erchashu.Answer_leafSimilar()
+	erchashu.Answer_goodNodes()
 }
