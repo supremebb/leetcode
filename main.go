@@ -1,10 +1,10 @@
 package main
 
 import (
-	"leetcode/lianbiao"
+	"leetcode/erchashu"
 )
 
 func main() {
 	//te11
-	lianbiao.Answer_pairSum()
+	erchashu.Answer_maxDepth()
 }
